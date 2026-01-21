@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <div>
+                <div class="nav-adress border">
+                    <p class="first-add">Deliver to</p>
+                    <div class="add-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="sec-add">India</p>
+                        </i>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select name="" id="select-search">
+                    <option value="All">All</option>
+                </select>
+                <input class="input" type="search" placeholder="Search Amazon">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="language">
+                <select name="" id="select-language">
+                    <option value="ENG" data-flag="us">ENG</option>
+                    <option value="hi" data-flag="in">HINDI</option>
+                    <option value="fr" data-flag="fr">FRENCH</option>
+                </select>
+            </div>
+            <div class="select-account border">
+                <p>Hello,Sign in</p>
+                <select name="" id="Accounts">
+                    <option value="">Accounts &amp; Lists</option>
+                </select>
+            </div>
+            <div class="return-order border">
+                <a href="#">
+                    <p class="return">Returns</p>
+                    <div>
+                        <p class="order">&amp; Orders</p>
+                    </div>
+                    <a>
+            </div>
+
+            <a href="">
+                <div class="cart border">
+                    <i class="fa-solid fa-cart-arrow-down cart-logo"></i>
+                    <p>Cart</p>
+
+                </div>
+            </a>
+
+        </div>
+        <div class="panel">
+            <a href="">
+                <div class="All-panel border">
+                    <i class="fa-solid fa-bars"></i>
+                    All
+            </a>
+        </div>
+
+        <div class="panel-lists">
+            <ul class="panel-ul">
+                <li class="panel-li ">
+                    <div class="panel-div">
+                        <a href=""> Today's Deals</a>
+                    </div>
+                </li>
+                <li class="panel-li">
+                    <div class="panel-div">
+                        <a href=""> Prime Video</a>
+                    </div>
+                </li>
+                <li class="panel-li">
+                    <div class="panel-div">
+                        <a href=""> Registory</a>
+                    </div>
+                </li>
+                <li class="panel-li">
+                    <div class="panel-div">
+                        <a href=""> Gift Cards</a>
+                    </div>
+                </li>
+                <li class="panel-li">
+                    <div class="panel-div">
+                        <a href=""> Customer Service</a>
+                    </div>
+                </li>
+                <li class="panel-li">
+                    <div class="panel-div">
+                        <a href=""> Sell</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class=""></div>
+        </div>
+    </header>
+    <div class="hero-section">
+        <button class="hero-arrow left" onclick="prevSlide()">❮</button>
+
+        <div class="hero-slider">
+            <div class="hero-slides">
+                <img src="hero-image.jpg">
+                <img src="hero-image2.jpg">
+                <img src="hero-image3.jpg">
+                <img src="hero-image4.jpg">
+            </div>
+        </div>
+
+        <button class="hero-arrow right" onclick="nextSlide()">❯</button>
+
+        <div class="hero-mssg">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local
+                delivery. <a href="https://www.amazon.in/"> Click here to go to amazon.in </a></p>
+        </div>
+
+    </div>
+    <div class="shop-card">
+        <div class="card1 card">
+            <h3>Get your game on</h3>
+
+            <div class="card-img">
+                <a href="#"><img src="card1.jpg" alt=""></a>
+            </div>
+            <a href="#">Shop Gaming</a>
+        </div>
+
+        <div class="card1 card">
+            <h3>Shop for your home essentials</h3>
+
+            <div class="card-img">
+                <a href="#"><img src="card2.jpg" alt=""></a>
+            </div>
+            <a href="#">Discover more in home decor</a>
+        </div>
+        <div class="card1 card">
+            <h3>Shop fashion for less</h3>
+
+            <div class="card-img">
+                <a href="#"><img src="card3.jpg" alt=""></a>
+            </div>
+            <a href="#">See all deals</a>
+        </div>
+        <div class="card1 card">
+            <h3>New home arrivals for 50$</h3>
+
+            <div class="card-img">
+                <a href="#"><img src="card4.jpg" alt=""></a>
+            </div>
+            <a href="#">Shop the latest from home</a>
+        </div>
+        <div class="card1 card">
+            <h3>Fashion trends you like</h3>
+
+            <div class="card-img">
+                <a href="#"><img src="card5.jpg" alt=""></a>
+            </div>
+            <a href="#">Explore more</a>
+        </div>
+
+        <div class="card1 card">
+            <h3>Home decor in 50$ USD</h3>
+
+            <div class="card-img">
+                <a href="#"><img src="card6.jpg" alt=""></a>
+            </div>
+            <a href="#">Explore all products in Kitchen</a>
+        </div>
+        <div class="card1 card">
+            <h3>Easy updates for elevated spaces</h3>
+
+            <div class="card-img">
+                <a href="#"><img src="card7.jpg" alt=""></a>
+            </div>
+            <a href="#">New year's deals</a>
+        </div>
+        <div class="card1 card">
+            <h3>New home arrivals for 50$</h3>
+
+            <div class="card-img">
+                <a href="#"><img src="card8.jpg" alt=""></a>
+            </div>
+            <a href="#">See home products</a>
+        </div>
+
+    </div>
+    <footer>
+
+        <div class="signin-panel">
+
+            <h2>See personalized recommendations</h2>
+            <button class="sign-in-btn">Sign in</button>
+            <p class="new-customer">New customer? <a href="#">Start here.</a></p>
+
+        </div>
+        <div class="button-div">
+            <a href="#top" class="panel-backtotop">
+                <div>
+                    Back to top
+                </div>
+            </a>
+        </div>
+        <div class="list-panel">
+
+            <div class="list-column">
+                <p>Get to know Us</p>
+                <ul>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About Amazon</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Amazon Devices</a></li>
+                    <li><a href="#">Amazon Science</a></li>
+                </ul>
+            </div>
+
+            <div class="list-column">
+                <p>Make Money with Us</p>
+                <ul>
+                    <li><a href="#">Sell products on Amazon</a></li>
+                    <li><a href="#">Sell on Amazon Business</a></li>
+                    <li><a href="#">Sell apps on Amazon</a></li>
+                    <li><a href="#">Become an Affiliate</a></li>
+                    <li><a href="#">Advertise Your Products</a></li>
+                    <li><a href="#">Self-Publish with Us</a></li>
+                </ul>
+            </div>
+
+            <div class="list-column">
+                <p>Amazon Payment Products</p>
+                <ul>
+                    <li><a href="#">Amazon Business Card</a></li>
+                    <li><a href="#">Shop with Points</a></li>
+                    <li><a href="#">Reload Your Balance</a></li>
+                    <li><a href="#">Amazon Currency Converter</a></li>
+                </ul>
+            </div>
+
+            <div class="list-column">
+                <p>Let Us Help You</p>
+                <ul>
+                    <li><a href="#">Amazon and COVID-19</a></li>
+                    <li><a href="#">Your Account</a></li>
+                    <li><a href="#">Your Orders</a></li>
+                    <li><a href="#">Shipping Rates & Policies</a></li>
+                    <li><a href="#">Returns & Replacements</a></li>
+                    <li><a href="#">Manage Your Content and Devices</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="link-panel">
+            <div class="link-inner-pannel">
+                <a href="">
+                    <div class="panel-logo"></div>
+                </a>
+            </div>
+            <div class="footer-controls">
+                <button class="footer-btn">
+                    <i class="fa-solid fa-globe"></i>
+                    English
+                    <i class="fa-solid fa-caret-down"></i>
+                </button>
+
+                <button class="footer-btn">
+                    $ USD - U.S. Dollar
+                </button>
+
+                <button class="footer-btn">
+                    <img src="https://flagcdn.com/w20/us.png" alt="US flag">
+                    United States
+                </button>
+            </div>
+        </div>
+        <div class="footer-services">
+
+            <!-- ROW 1 -->
+            <ul>
+                <li>
+                    <a href="#"><strong>Amazon Music</strong><span>Stream millions of songs</span></a>
+                </li>
+                <li>
+                    <a href="#"><strong>Amazon Ads</strong><span>Reach customers wherever they spend their
+                            time</span></a>
+                </li>
+                <li>
+                    <a href="#"><strong>6pm</strong><span>Fashion deals on fashion brands</span></a>
+                </li>
+                <li>
+                    <a href="#"><strong>AbeBooks</strong><span>Books,arts & collectibles</span></a>
+                </li>
+                <li>
+                    <a href="#"><strong>ACX</strong><span>Audiobook Publishing made easy</span></a>
+                </li>
+                <li>
+                    <a href="#"><strong>Sell on Amazon</strong><span>Start a selling account</span></a>
+                </li>
+            </ul>
+
+            <!-- ROW 2 -->
+            <ul>
+                <li>
+                    <a href="#"><strong>Amazon Business</strong><span>Everything for your business</span></a>
+                </li>
+                <li>
+                    <a href="#"><strong>AmazonGlobal</strong><span>Ship orders internationally</span></a>
+                </li>
+                <li>
+                    <a href="#"><strong>AWS</strong><span>scalable Cloud computing services</span></a>
+                </li>
+                <li>
+                    <a href="#"><strong>Audible</strong><span>listen to books & Audio books</span></a>
+                </li>
+                <li>
+                    <a href="#"><strong>Box Office Mojo</strong><span>Find movie box office data</span></a>
+                </li>
+                <li>
+                    <a href="#"><strong>Goodreads</strong><span>Book reviews and recommendations</span></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="copyright-description">
+            <ul class="last-ul">
+                <li class="last-panel"> <a href="#">Conditions of use</a> </li>
+                <li class="last-panel"> <a href="#">Privacy Notice</a> </li>
+                <li class="last-panel"> <a href="#">Comsumer health data privacy disclosure</a> </li>
+                <li class="last-panel"> <a href="#">Yours ads privacy choices</a> </li>
+            </ul>
+            <br>
+            <span>&copy; 1996-2026, Amazon.com, Inc. or its affiliates</span>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
